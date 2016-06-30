@@ -1,0 +1,45 @@
+body.dragging, body.dragging * {
+    cursor: move !important;
+}
+
+ol[data-sortable] {
+    padding-left: 0;
+
+    li {
+        display: block;
+        padding: 15px;
+        margin: 5px 0;
+        border-radius: 3px;
+        border: 2px solid color('grey', 'lighten-3');
+
+        &.dragged {
+            position: absolute;
+            opacity: 0.5;
+            z-index: 2000;
+        }
+
+        &:hover {
+            border-color: color('grey', 'lighten-1');
+        }
+
+        &.placeholder {
+            position: relative;
+            padding: 0;
+            border-color: $link-color;
+        }
+
+        ol {
+            margin: 0;
+
+            li {
+                &:first-child {
+                    margin-top: 15px;
+                }
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}

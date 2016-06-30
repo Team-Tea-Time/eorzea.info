@@ -1,0 +1,25 @@
+{
+  "name": "rna",
+  "version": "1.0.0",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-markdown": "~2.10.0",
+    "datetimepicker": "^2.5.3",
+    "font-awesome": "fontawesome#^4.5.0",
+    "fullcalendar": "^2.7.1",
+    "jquery-sortable": "^0.9.13",
+    "marked": "~0.3.5",
+    "Materialize": "materialize#~0.97.5",
+    "unslider": "~2.0.3"
+  }
+}
