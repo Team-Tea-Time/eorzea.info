@@ -2,8 +2,7 @@
 
 @section('body_class', 'home')
 
-@section('title', 'Rusty Nails Adventurers')
-@section('subtitle', "<em>{$quote}</em>")
+@section('title', "The Roleplayer's Guide to Eorzea")
 
 @section('content')
 <div class="row">

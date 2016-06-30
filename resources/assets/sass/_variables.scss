@@ -5,8 +5,9 @@ $brand-twitter: #55acee;
 // MATERIALIZE
 $primary-color: #3a3c46;
 $secondary-color: lighten($primary-color, 15%);
-$link-color: color('deep-orange', 'accent-4');
-$card-link-color: $link-color;
+$accent-color: rgb(255, 60, 77);
+$link-color: $accent-color;
+$card-link-color: $accent-color;
 
 $roboto-font-path: '/font/roboto/';
 $icons-font-path: '/font/material-design-icons/';

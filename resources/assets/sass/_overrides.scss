@@ -1,11 +1,16 @@
 nav {
     position: relative;
     z-index: 1000;
-    background: transparentize($primary-color, 0.1);
+    background: rgba(0, 0, 0, 0.3);
 
     a.brand-logo {
-        img {
-            display: block;
+        padding: 0 15px;
+        background: rgb(255, 60, 77);
+        font-weight: 300;
+        color: rgba(255, 255, 255, 0.8);
+
+        .world {
+            color: #fff;
         }
     }
 
